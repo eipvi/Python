@@ -1,0 +1,96 @@
+Instalação Ubuntu-linux
+
+python --version
+python3 --version 
+
+# Aplicativos:
+
+java jdk 11.0.7 linux x64
+Python 
+pycharm
+
+
+Link: https://www.python.org/downloads/
+
+1.Baixe o Linux
+2.Insira o diretorio na pasta apps na página principal
+3.Abra o terminal dentro do diretorio apps e verifique a pasta jdk11
+4.insira pwd
+
+# Configurar Binarios
+Como configurar os Binarios do Java?
+
+1.Abra a página ocial do computador
+2.Ctrl H para abrir arquivos ocultos
+3.Abra a pasta (.bashrc) no editor de texto 
+4.Escreva:
+
+
+ # Configuração Java
+ JAVA_HOME=/home/nomeusuariopc/apps/jdk11
+export JAVA_HOME
+
+PATH=$PATH:$JAVA_HOME/bin
+export PATH
+
+5.Ctrl Salvar Arquivo
+6.Ctrl H para fechar as pastas ocultas
+7.Abra terminal
+8.Java --version
+9.Confira se está instalado 
+10. ok
+
+
+[BIN:] Executaveus de qualquer programa de binarios
+[JAVA_HOME:=] Criando variavel de ambiente
+[endereço] Endereço onde está o java
+[export] Exportando 
+[JAVA_HOME] em todo o todo o sistema
+
+[path] Onde estão os executaveis do sistema 
+[$path:JAVA_HOME/bin] Acrescentando no BF na variável PF o JAVA HOME /bin
+[export PATH] Exportando o PATH
+
+
+# Instalar as dependências
+
+11.Abra o terminal
+12.Atualize os aplicativos:
+
+sudo apt -get update
+
+<!--
+
+a) Instalar as dependências
+
+sudo apt install build-essential zlib1g-dev libjpeg-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev sqlite3 liblzma-dev curl libbz2-dev
+
+b) Baixar o fonte do Python
+
+c) Descompactar o Python baixado
+
+d) Com o terminal aberto no diretório do fonte executar:
+
+	./configure --enable-optimizations --with-ensurepip=install
+
+e) Compilar com o comando:
+
+	make -j 8
+
+f) Instalar com o comando:
+
+	sudo make altinstall
+	
+g) Verifique se foi instalado com o comando:
+
+	python3.x --version
+
+	pip3.x --version
+
+-->
+
+13.instalar dependencias
+
+ código acima
+
+14.Extrair Python na pasta
