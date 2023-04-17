@@ -1,4 +1,3 @@
-"""
 Funções DIR E HELP no Python
 UTILITÁRIOS Python para auxiliar na programação.
 
@@ -37,8 +36,6 @@ dir(input)
 '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', 
 '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', 
 '__str__', '__subclasshook__', '__text_signature__']
-
-
 
 
 -HELP
@@ -87,4 +84,3 @@ lower() method of builtins.str instance
 
 
  Strings: As strings são usadas para armazenar informações de texto em uma variedade de aplicativos, como processadores de texto, editores de código, programas de banco de dados e aplicativos da Web. Elas também podem ser manipuladas e processadas por meio de funções específicas, como concatenação, substituição, extração e comparação de strings. Em muitas linguagens de programação, as strings são definidas entre aspas duplas ("") ou simples ('').
-"""
