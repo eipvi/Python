@@ -1,3 +1,4 @@
+"""
 Funções DIR E HELP no Python
 UTILITÁRIOS Python para auxiliar na programação.
 
@@ -15,7 +16,7 @@ Apresenta todos os atributos e funções/métodos disponiveis para determinado t
 O dir() retorna todas as propriedades e métodos do objeto especificado. Vamos tentar entender através de exemplos:
 
 dir(int)
-# ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', 
+ ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', 
 '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', 
 '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', 
 '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', 
@@ -31,11 +32,12 @@ Exemplos:
 Pode por exemplo, usar o dir para obter informações dos métodos do int ou input:
 
 dir(input)
-# ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__',
+ ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__',
 '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__',
 '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', 
 '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', 
 '__str__', '__subclasshook__', '__text_signature__']
+
 
 
 -HELP
@@ -84,3 +86,4 @@ lower() method of builtins.str instance
 
 
  Strings: As strings são usadas para armazenar informações de texto em uma variedade de aplicativos, como processadores de texto, editores de código, programas de banco de dados e aplicativos da Web. Elas também podem ser manipuladas e processadas por meio de funções específicas, como concatenação, substituição, extração e comparação de strings. Em muitas linguagens de programação, as strings são definidas entre aspas duplas ("") ou simples ('').
+"""
