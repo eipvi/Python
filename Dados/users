@@ -1,0 +1,53 @@
+"""
+Recebendo dados do usuário
+
+#Exemplo de print antigo 2.x:
+#Entrada de dados
+print("Qual é seu nome?")
+nome = input()
+
+print("Qual é sua idade?")
+idade = input()
+
+
+#Saída de dados
+print('Seja bem vindo(a) %s' % nome)
+
+print('a %s tem %s anos' % (nome, idade))
+
+#Exemplo de print antigo 3.x:
+#Entrada de dados
+print('Seja bem-vindo {0}'.format(nome))
+
+#Saída de dados
+print('A {0} tem {1} anos'.format(nome, idade))
+
+
+#Exemplo de print antigo 3.7:
+#Entrada de dados
+print(f'Seja bem-vindos {nome}')
+
+#Saída de dados
+print(f'A {nome} tem {idade} anos')
+
+
+#Como ficaria:
+
+nome = input('Qual seu nome?')
+
+idade = input('Qual sua idade?')
+
+print(f'Seja bem-vindos {nome}')
+
+print(f'A {nome} tem {idade} anos')
+
+print(f'E a {nome} nasceu em {2023 - int(idade)}')
+
+
+IMPORTANTE:
+#input()--> Entrada, e todo dado recebido via input é do tipo string
+#Variavel vai substituir a %s
+#Mais de uma variavel se coloca se a % e abre ()
+#f = format
+#int(idade) = cast é a 'conversão' de um tipo de dado para o outro.
+"""
