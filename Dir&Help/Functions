@@ -1,10 +1,18 @@
 """
 Funções DIR E HELP no Python
-O propósito dessa função é obter informações sobre determinados tipos, classes ou funções.
+UTILITÁRIOS Python para auxiliar na programação.
 
-dir e help geralmente são usadas no modo interativo, somente para obter informações rápidas.
+dir--> Apresenta todos os atributos/propriedades e funções/métodos disoiníveis para determinado tipo de dados ou variável.
 
-DIR
+help--> Apresenta a documentação/como utilizar os atributos/propriedades e funções/métodos disponiveis para determinado tipo de dado ou variável
+
+dir e help--> geralmente são usadas no modo interativo, somente para obter informações rápidas.
+
+
+
+-DIR
+Apresenta todos os atributos e funções/métodos disponiveis para determinado tipo de dado ou variável.
+
 O dir() retorna todas as propriedades e métodos do objeto especificado. Vamos tentar entender através de exemplos:
 
 dir(int)
@@ -20,11 +28,8 @@ dir(int)
 '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate',
 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
 
-
-
 Exemplos:
 Pode por exemplo, usar o dir para obter informações dos métodos do int ou input:
-
 
 dir(input)
 # ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__',
@@ -33,10 +38,10 @@ dir(input)
 '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', 
 '__str__', '__subclasshook__', '__text_signature__']
 
-Apresenta todos os atributos e funções/métodos disponiveis para determinado tipo de dado ou variável.
 
 
-HELP
+
+-HELP
 Ele nos fornece uma breve explicação de como implementa o método e informa qual a utilidade dele.
 
 Exemplos:
@@ -52,7 +57,7 @@ import math as ma
  'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'pi', 
  'pow', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc']
 
- help(ma.sqrt)
+>>> help(ma.sqrt)
 Help on built-in function sqrt in module math:
 sqrt(x, /)
  Return the square root of x.
@@ -68,4 +73,18 @@ lower() method of builtins.str instance
  Return a copy of the string converted to lowercase.
 
  Com isso, a função help() nos auxilia quando necessitamos de informações sobre determinada função ou método disponível.
+
+ 
+ Resumo:
+
+ q = Voltar
+ "".upper() = Deixa tudo maiúsculo
+ help("x".title) = Tirar dúvida de como fazer
+ 'palavra'.title() = 'Palavra' letra do primeiro nome em maiusculo 
+ 'PALAVRA'.lower().title() = Transforma a palavra em letra minuscula em seguida transforma e em minuscula mas com a primeira letra em maiscula, ex: Palavra.
+ help(4.real) = ERRO, TENTE: num = 4 enter help(num.real)
+ print(dir('objetivo')) = Usado para imprimir o que deseja
+
+
+ Strings: As strings são usadas para armazenar informações de texto em uma variedade de aplicativos, como processadores de texto, editores de código, programas de banco de dados e aplicativos da Web. Elas também podem ser manipuladas e processadas por meio de funções específicas, como concatenação, substituição, extração e comparação de strings. Em muitas linguagens de programação, as strings são definidas entre aspas duplas ("") ou simples ('').
 """
