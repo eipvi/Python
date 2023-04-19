@@ -1,0 +1,34 @@
+"""
+O que é uma variavel?
+
+Uma variável é uma referência a um valor armazenado na memória do computador. Ela é usada para armazenar e manipular dados durante a execução do programa.
+
+Ao declarar uma variável em Python, é necessário especificar o nome da variável e o valor inicial que ela irá armazenar. Por exemplo, a declaração "x = 5" cria uma variável chamada "x" que armazena o valor 5.
+
+A vantagem de usar variáveis em Python é que elas permitem que você armazene e manipule dados dinamicamente durante a execução do programa. Isso significa que você pode criar programas flexíveis e reutilizáveis que podem se adaptar a diferentes situações.
+
+Aqui estão alguns exemplos dos principais tipos de variáveis em Python:
+
+1.Variáveis numéricas:
+Inteiro (int): representa números inteiros positivos ou negativos, sem casas decimais. Exemplo: x = 10
+Float: representa números reais com casas decimais. Exemplo: y = 3.14
+Complexo: representa números complexos, com uma parte real e uma parte imaginária. Exemplo: z = 2 + 3j
+
+2.Variáveis booleanas:
+Booleano (bool): representa um valor lógico True (verdadeiro) ou False (falso). Exemplo: p = True
+
+3.Variáveis de texto:
+String (str): representa uma sequência de caracteres alfanuméricos. Exemplo: nome = "Maria"
+
+4.Variáveis de sequência:
+Lista (list): representa uma sequência ordenada de valores, que podem ser de qualquer tipo. Exemplo: numeros = [1, 2, 3, 4, 5]
+Tupla (tuple): semelhante a uma lista, mas imutável (ou seja, não pode ser modificada após a criação). Exemplo: cores = ("vermelho", "verde", "azul")
+
+5.Variáveis de mapeamento:
+Dicionário (dict): representa uma coleção de pares chave-valor, em que cada chave é associada a um valor. Exemplo: pessoa = {"nome": "João", "idade": 30, "cidade": "São Paulo"}
+
+
+Lembre-se de que em Python, o tipo de uma variável é definido automaticamente com base no valor atribuído a ela. No entanto, é possível converter o tipo de uma variável usando funções como int(), float(), str(), entre outras.
+"""
+
+
