@@ -1,4 +1,13 @@
-"""1.Abra terminal
+"""
+PEP8 é um guia de estilo para escrita de código em Python. Ele é um documento que contém uma série de recomendações e diretrizes para tornar o código Python mais legível e consistente.
+
+O PEP8 inclui recomendações sobre a formatação do código, como a utilização de espaços em branco, indentação, nomeação de variáveis e funções, entre outros. Ele também sugere práticas para tornar o código mais legível, como a limitação do comprimento das linhas de código e a utilização de comentários.
+
+O objetivo do PEP8 é tornar o código Python mais fácil de entender e manter, tanto para o programador que o escreve quanto para outros que possam trabalhar nele posteriormente. Ao seguir as diretrizes do PEP8, o código se torna mais legível e consistente, o que ajuda a evitar erros e facilita a colaboração em projetos de programação.
+
+A comunidade Python considera o PEP8 uma recomendação importante e muitas vezes requer que os projetos sigam suas diretrizes.
+
+1.Abra terminal
 2.Digite python3.8 (python instalado) para abrir o console do python
 3.Assim que o console estiver aberto insira: import this
 4.Printado um poema:
